@@ -1,0 +1,81 @@
+body {
+    font: "Microsoft Yahei"
+}
+.clear-fix{
+    clear: both;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    
+}
+.detail{
+    background-color: #232323;
+}
+.packet{
+    width: 80%;
+    height: 80%;
+    background-image: url("../images/6.jpg");
+    background-size: cover;
+    margin:1.2rem auto;
+    padding-top: 1.2rem;
+    padding-right:.5rem;
+    padding-left:.5rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.packet .shanghu{
+    text-align: center;
+    margin-top: .5rem;
+    color: #DDBC84;
+    font-size:.8rem;
+}
+.packet .shanghu .user-pic img{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.packet .thanks{
+    margin-top: 1.9rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #ffe2b1;
+}
+.packet .open{
+    width: 100%;
+    height: 5rem;
+    /*background-color: #DDBC84;*/
+    background-color: rgb(255, 255, .1);
+    position: absolute;
+    bottom: 15%;
+}
+.packet .chai{
+font-size: 2rem;
+font-weight: bold;
+position: absolute;
+left: 42%;
+ bottom: 16%;
+}
+.tips{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    line-height: 2rem;
+}
+.tips .pic{
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+}
+.tips .pic img{
+    width: 100%;
+    
+}
+.tips .desc{
+    margin-left: .3rem;
+    display: inline-block;
+}
+.tips  a{
+    color: #ffe2b1;
+}

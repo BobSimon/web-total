@@ -1,0 +1,503 @@
+body {
+    font: "Microsoft Yahei"
+}
+.clear-fix{
+    clear: both;
+}
+a{
+    color: #000;
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #000;
+}
+.label{
+    font-size: .6rem;
+    color: #fff;
+    background: #FF8109;
+    display: inline-block;
+    padding: 0 .3rem;
+    border-radius: 1rem;
+}
+.label.label-red{
+    background-color: #FA6805;
+}
+.label.label-yellow{
+    background-color: #EBCC58;
+}
+
+.line-through{
+    text-decoration:line-through;
+} 
+
+/* 顶部导航 */
+.bar {
+    background-color: #fff;
+    font-size: .6rem; 
+    line-height: 2.4rem;    
+}
+.bar .backspace{
+    float: left;
+}
+.bar .title{
+    line-height: 2.4rem;
+}
+.bar .refresh{
+    float: right;
+}
+.bar .fenxiang{
+    float: right;
+}
+
+.content .banner img{
+    width: 100%;
+}
+.content .contain{
+    padding:.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.content .contain .info{
+    font-size: .8rem;
+    font-weight: bold;
+}
+.content .contain .desc{
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+}
+.content .contain .desc .price-content{
+    float: left;
+}
+.content .contain .desc .price-content .price-icon{
+    color: #FF8109;
+    font-size: .8rem;
+}
+.content .contain .desc .price-content .price{
+    color: #FF8109;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.content .contain .desc .num{
+    float: right;
+    font-size: .7rem;
+}
+.content .contain .introduce{
+    font-size: .7rem;
+    margin:.3rem 0;
+}
+.content .contain .require{
+    font-size: .7rem;
+}
+.content .contain .require i{
+    color: #FF8109;
+}
+.content .contain .require .outnumber{
+    color: #FF8109;
+    font-size: bold
+}
+
+.content .join{
+    margin-top: .5rem;
+    padding:.5rem;
+    background-color: #fff;
+}
+.content .join .cue{
+    font-size: .7rem;
+    border-top: 1px solid #eee;
+    padding: .4rem 0;
+}
+.content .join .list .item{
+    height: 3rem;
+    line-height: 3rem;
+    border-top: 1px solid #eee;
+}
+.content .join .list .item .pic{
+    float: left;
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-top: .3rem;
+}
+.content .join .list .item .pic img{
+    width: 100%;
+    border-radius: 50%;
+}
+.content .join .list .item .time{
+    margin-left: .5rem;
+    float: left;
+    font-size: .7rem;
+}
+.content .join .list .item .time .count{
+    color: #FF8109;
+}
+.content .join .list .item .join-btn{
+    float: right;
+    color: #fff;
+    font-size: .7rem;
+    background-color: #94b300;
+    width: 4rem;
+    height: 2rem;
+    margin-top: .5rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* 第五种产品展示的盒子 */
+.box-5{
+    min-height: 4rem;
+    background-color: #fff;
+    position: relative;
+}
+.box-5 .box-left {
+    float: left;
+    max-width: 35%;
+    line-height: 0;
+    padding: .5rem;
+}
+.box-5 .box-left img{
+    max-width: 100%;
+}
+.box-5 .box-right{
+    padding: .5rem;
+    float: left;
+    width: 65%;
+    font-size: .7rem;
+}
+.box-5 .box-right .name{
+    font-weight: bold;
+}
+.box-5 .box-right .price-info .rules{
+    float: left;
+}
+.box-5 .box-right .price-info .price-content{
+    float: right;
+}
+.box-5 .box-right .price-info .price-content .price-icon{
+    color: #FF8109;
+    font-size: .7rem;
+}
+.box-5 .box-right .price-info .price-content .price{
+    color: #FF8109;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.box-5 .result{
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    bottom: .5rem;
+    right: 1rem;
+    z-index: 9999;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box-5 .result.success{
+    /* 背景图大小尺寸一定要是 180*80 */
+    background: url("../img/pingtuan-success.png");    
+}
+.box-5 .result.failed{
+     /* 背景图大小尺寸一定要是 180*80 */
+    background: url("../img/pingtuan-failed.png");    
+}
+/*拼团详情页面*/
+.group-detail .info{
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    font-weight:bold;
+}
+.group-detail .info i{
+    color: #94b300;
+}
+/* 用户头像列表 */
+.group-detail .show .users{
+    margin-top: .5rem;
+    padding: 0 .5rem;
+    text-align: center;
+}
+.group-detail .show .users .user{
+    position: relative;
+    display: inline-block;
+    padding: .5rem;
+}
+.group-detail .show .users .circle{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+.group-detail .show .users .user img{
+    width: 100%;
+    border-radius: 50%;
+}
+.group-detail .show .users .user .label{
+    position: absolute;
+    top: 0;
+    right: -.3rem;
+}
+.group-detail .show .users .user-more .btn-show-more{
+    font-size: .6rem;
+}
+.group-detail .show .users .user-more .user{
+    display: none;
+}
+.group-detail .show .users .user-more .user.show{
+    display: inline-block;
+}
+/* 还差几人 */
+.group-detail .show .user-left{
+    text-align: center;
+    font-size: .8rem;
+}
+.group-detail .show .user-left .count{
+    color: #FAA735;
+}
+/* 剩余时间 */
+.group-detail .show .time-left{
+    margin: .5rem 0;
+    text-align: center;
+    font-size: .8rem;
+}
+.group-detail .show .time-left .time{
+    background: #DDDDDD;
+    padding: .1rem;
+    margin: .1rem;
+}
+/* 用户信息列表 */
+.group-detail .show .user-info{
+    background: #fff;
+    margin: .5rem 0;
+    position: relative;
+    padding: .5rem;
+    height: 3rem;
+}
+.group-detail .show .user-info .pic{
+    float: left;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+.group-detail .show .user-info .pic img {
+    width: 100%;
+    border-radius: 50%;
+}
+.group-detail .show .user-info .name{
+    float: left;
+    font-size: .7rem;
+    line-height: 2rem;
+    margin-left: .5rem;
+}
+.group-detail .show .user-info .start-time{
+    float: right;
+    font-size: .7rem;
+    line-height: 2rem;
+    margin-left: .5rem;
+}
+.group-detail .show .user-info .label{
+    position: absolute;
+    top: -.5rem;
+    right: .5rem;
+    font-size: .7rem;
+}
+
+/*更多团购*/
+.content .more{
+    margin-top: .5rem;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.content .more .more-title{
+    padding:.5rem;
+}
+
+/* 第四种产品展示的盒子 */
+.box-4{
+    width: 50%;
+    float: left;
+    padding:.4rem;
+    border-top: 1px solid #eee;
+}
+.box-4.border-right{
+    border-right: 1px solid #eee;
+}
+.box-4 .pic img{
+    width: 100%;
+}
+.box-4 .info{
+    font-size: .7rem;
+    height: 2.2rem;
+    overflow: hidden;
+}
+.box-4 .price-info{
+    height: 1rem;
+    line-height: 1rem;
+}
+.box-4 .price-info .rules{
+    float: left;
+    font-size: .6rem;
+}
+.box-4 .price-info .price-content{
+    float: right;
+}
+.box-4 .price-info .price-content .price-icon{
+    color: #FF8109;
+    font-size: .7rem;
+}
+.box-4 .price-info .price-content .price{
+    color: #FF8109;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+/* 底部 样式1 */
+.footer-before{
+    height: 3rem;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #94b300;
+}
+.footer .contain-left{
+    float: left;
+    width: 35%;
+    height: 3rem;
+    background-color: #bee114;
+    color: #fff;
+    text-align: center;
+}
+.footer .contain-left .price-content{
+    display: block;
+    line-height: 2rem;
+    font-size: .8rem;
+}
+.footer .contain-left .self{
+    display: block;
+    line-height: .2rem;
+    font-size: .6rem;
+}
+.footer .contain-right{
+    float: right;
+    color: #fff;
+    width: 65%;
+}
+.footer .contain-right .rules{
+    width: 8rem;
+    margin: 0 auto;
+}
+.footer .contain-right .rules .price-info{
+    line-height: 2rem;
+    font-size: .8rem;
+    width: 4rem;
+    float: left;
+    text-align: center;
+}
+.footer .contain-right .rules .price-info .self{
+    line-height: .2rem;
+    font-size: .6rem;
+}
+.footer .contain-right .rules .join{
+    line-height: 2rem;
+    margin-top: .5rem;
+    text-align: center;
+    border-left: 1px solid #fff;
+    width: 4rem;
+    float: left;
+}
+/* 底部 样式2 */
+.footer2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #fff;
+    border-top:1px solid #eee;
+    padding:.5rem;
+}
+.footer2 .more-btn{
+    height: 2rem;
+    line-height: 2rem;
+    float: left;
+    color: #94b300;
+    border:1px solid #94b300;
+    background-color: #fff;
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+}
+.footer2 .join-btn{
+    float: right;
+    color: #fff;
+    background-color: #94b300;
+    width: 70%;
+    text-align: center;
+    border-radius: 5px;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+
+/* 底部 样式3 */
+.footer3{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #fff;
+}
+.footer3 .choose-pic{
+    width: 50%;
+    float: left;
+    text-align: center;
+     font-weight: bold;
+     color: #94b300;
+}
+.footer3 .add-cart{
+    width: 50%;
+    float: right;
+    background-color: #94b300;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+/*分享遮罩层*/
+.popup{
+    background-color: rgba(255,255,255,0.1);
+    position: relative;
+}
+.close-popup{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 5rem;
+}
+.popup .share{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    bottom: 0;
+    padding: .5rem 2em;
+}
+.popup .share .share-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.popup .share .share-content img{
+    width: 4rem;
+    height: 4rem;
+}

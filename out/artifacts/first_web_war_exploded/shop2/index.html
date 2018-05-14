@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>次日达</title>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <link rel="stylesheet" href="css/sm.min.css">
+  <link rel="stylesheet" href="css/sm-extend.min.css">
+  <!-- 图标 -->
+  <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+  <!-- 自定义样式 -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <div class="page-group">
+    <header class="bar bar-nav">
+      <a class="pull-left map-site" href="#">
+        <i class="icon iconfont">&#xe60b;</i> 江阴市
+      </a>
+      <a class="pull-right userinfo" href="user.html">
+        <i class="icon iconfont">&#xe60f;</i>
+      </a>
+      <div class="title">
+        <div class="nav">
+          <span class="menu active">次日达</span>
+          <a href="group.html"><span class="menu">掌柜拼团</span></a>
+          <a href="bussiness.html"><span class="menu ">优质商家</span></a>
+        </div>
+      </div>
+    </header>
+    <div class="content">
+      <!-- tab-controls -->
+      <div class="buttons-tab">
+        <a href="#tab1" class="tab-link active button">精选</a>
+        <a href="#tab2" class="tab-link button">水果</a>
+        <a href="#tab3" class="tab-link button">零食</a>
+        <a href="#tab4" class="tab-link button">饮品</a>
+        <a href="#tab5" class="tab-link button">美食代购</a>
+      </div>
+      <!-- banner -->
+      <div class="banner">
+       <img src="img/banner1.jpg">
+      </div>
+      <!-- tab-contents -->
+      <div class="content-block">
+        <div class="tabs">
+          <div id="tab1" class="tab active">
+            <div class="content-block">
+              <div class="content-header">
+                <img src="img/zgjrtp.jpg" alt="掌柜今日头牌">
+              </div>
+              <!-- 正常 -->
+              <div class="box-1 open-popup"  data-popup=".popup-about">
+                <div class="box-header"></div>
+                <div class="box-left">
+                  <img src="img/2.jpg" alt="">
+                </div>
+                <div class="box-right">
+                  <div class="name">月映豪庭礼盒 妙记柠檬物语妙记柠檬物语</div>
+                  <div class="desc">中秋送礼就送豪庭中秋送礼就送豪庭</div>
+                  <div class="price-content">1盒装 <span class="price-icon">￥</span><span class="price">168</span></div>
+                  <div class="buy-btn">立即购买</div>
+                  <div class="num" style="display:none">
+                    <i class="icon iconfont minus">&#xe60e;</i>
+                    <span class="total">1</span>
+                    <i class="icon iconfont plus">&#xe601;</i>
+                  </div>
+                </div>
+                <div class="box-footer"></div>
+              </div>
+              <!-- 点击购买 -->
+              <div class="box-1 open-popup" data-popup=".popup-about">
+                <div class="box-header"></div>
+                <div class="box-left">
+                  <img src="img/2.jpg" alt="">
+                </div>
+                <div class="box-right">
+                  <div class="name">月映豪庭礼盒 妙记柠檬物语妙记柠檬物语</div>
+                  <div class="desc">中秋送礼就送豪庭中秋送礼就送豪庭</div>
+                  <div class="price-content">1盒装 <span class="price-icon">￥</span><span class="price">168</span></div>
+                  <div class="num">
+                    <i class="icon iconfont minus">&#xe60e;</i>
+                    <span class="total">1</span>
+                    <i class="icon iconfont plus">&#xe601;</i>
+                  </div>
+                </div>
+                <div class="box-footer"></div>
+              </div>
+              <!-- 补货中 -->
+              <div class="box-1 open-popup" data-popup=".popup-about">
+                <div class="box-header"></div>
+                <div class="box-left">
+                  <img src="img/2.jpg" alt="">
+                </div>
+                <div class="box-right">
+                  <div class="name">月映豪庭礼盒</div>
+                  <div class="desc">中秋送礼 就送豪庭</div>
+                  <div class="price-content">1盒装 <span class="price-icon">￥</span><span class="price">168</span></div>
+                  <div class="buy-btn-no">补货中</div>
+                </div>
+                <div class="box-footer"></div>
+              </div>
+            </div>
+          </div>
+          <div id="tab2" class="tab">
+            <div class="content-block">
+              <p>This is tab 2 content</p>
+            </div>
+          </div>
+          <div id="tab3" class="tab">
+            <div class="content-block">
+              <p>This is tab 3 content</p>
+            </div>
+          </div>
+          <div id="tab4" class="tab">
+            <div class="content-block">
+              <p>This is tab 4 content</p>
+            </div>
+          </div>
+          <div id="tab5" class="tab">
+            <div class="content-block">
+              <p>This is tab 5 content</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- footer前的占位层,放在content中，footer放在content外 -->
+       <div class="footer-before"></div> 
+    </div>
+
+    <footer class="footer">
+    <!--第一种方式：邮费-->
+      <!--未选择产品前-->
+      <div class="buy-content" style="display:none">
+        <div class="buy-cart">
+          <i class="icon iconfont">&#xe608;</i>
+        </div>
+        <div class="nothing">
+            满70.00元包邮
+        </div>
+      </div>
+      <!--选择产品后，未满足包邮条件-->
+      <div class="buy-content" >
+        <div class="buy-cart success">
+          <i class="icon iconfont">&#xe608;</i>
+        </div>
+        <div class="something">
+          <div class="price-content" >
+              <span class="price-icon">￥</span>
+              <span class="price">3.60</span>
+          </div>
+          <div class="desc desc-no">
+            <span class="desc-psf">配送费10.00元</span>
+            <span class="desc-cj">还差55.40元免配送费</span>
+          </div>
+        </div>
+      </div>
+      <!--选择产品后，满足包邮条件-->
+      <div class="buy-content" style="display:none">
+        <div class="buy-cart success">
+          <i class="icon iconfont">&#xe608;</i>
+        </div>
+        <div class="something">
+          <div class="price-content" >
+              <span class="price-icon">￥</span>
+              <span class="price">88.00</span>
+          </div>
+          <div class="desc success">
+            <span class="free">免配送费</span>
+           </div>
+        </div>
+      </div>
+
+    <!--第二种方式：不邮费-->
+      <!--未选择产品之前-->
+      <div class="buy-content" style="display:none">
+        <!--未选择产品之前 购物车样式 点击出现提示框(alert-text-title)调用：未购物-->
+        <div class="buy-cart alert-text-title" style="display:none">
+          <i class="icon iconfont">&#xe608;</i>
+        </div>
+        <!--选择产品后  购物车数量统计-->
+        <div class="buy-cart success open-popup" data-popup=".popup-cart" >
+          <i class="icon iconfont">&#xe608;</i>
+          <span class="label label-orange">22</span>
+        </div>
+        <div class="something">
+          <!--选择产品后  价格统计-->
+          <div class="price-content">
+              <span class="price-icon">￥</span>
+              <span class="price" >3.60</span>
+          </div>
+          <div class="desc desc-no">
+            <span class="desc-psf">次品送达</span>
+            <span class="desc-cj">坏品包退</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!--右边结算按钮-->
+      <div class="settlement">
+          去结算
+      </div>
+    </footer>
+  
+  </div>
+
+  <!-- 遮罩层-商品详情 -->
+  <div class="popup popup-about">
+    <div class="content-block detail">
+      <div class="pic">
+        <img src="img/2.jpg" alt="">
+      </div>
+      <div class="introduce">
+        <div class="info">
+          <div class="desc">江山绿果猕猴桃3只</div>
+          <div class="sub-desc">好评率99% 甜度高达18</div>
+          <div class="activity">此商品正参与<span>什么</span>活动</div>
+        </div>
+        <div class="contian">
+          <div class="price-content"> 
+            <span class="price-icon">￥</span>
+            <span class="price">168</span>
+          </div>
+          <div class="weight">单果80-100g</div>
+          <div class="num">
+            <i class="icon iconfont minus">&#xe60e;</i>
+            <span class="total">1</span>
+            <i class="icon iconfont plus">&#xe601;</i>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="service">
+            <span><i class="icon iconfont">&#xe606;</i> 坏品包赔</span>
+            <span><i class="icon iconfont">&#xe602;</i> 次日达</span>
+        </div>
+        <div class="more-detail">
+          <img src="img/more-detail.png">
+        </div>
+      </div>
+       
+    </div>
+    <!-- close -->
+    <div class="close-d close-popup">
+      <img src="img/close.png">
+    </div>
+  </div>
+
+  <!--遮罩层-购物车-->
+  <div class="popup popup-cart">
+    <div class="close-popup"></div>
+    <div class="cart">
+      <div class="cart-title">购物车</div>
+      <div class="cart-list">
+        <!--1-->
+        <div class="list">
+          <div class="goods-name">久久丫秘制豆干久久丫秘制豆干久久丫秘制豆干</div>
+          <div class="list-right">
+            <div class="price-content"> 
+              <span class="price-icon">￥</span>
+              <span class="price">168</span>
+            </div>
+            <div class="num">
+                <i class="icon iconfont minus">&#xe60e;</i>
+                <span class="total">1</span>
+                <i class="icon iconfont plus">&#xe601;</i>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+        <!--end 1-->
+        <!--1-->
+        <div class="list">
+          <div class="goods-name">久久丫秘制豆干久久丫秘制豆干久久丫秘制豆干</div>
+          <div class="list-right">
+            <div class="price-content"> 
+              <span class="price-icon">￥</span>
+              <span class="price">168</span>
+            </div>
+            <div class="num">
+                <i class="icon iconfont minus">&#xe60e;</i>
+                <span class="total">1</span>
+                <i class="icon iconfont plus">&#xe601;</i>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+        <!--end 1-->
+        <!--1-->
+        <div class="list">
+          <div class="goods-name">久久丫秘制豆干久久丫秘制豆干久久丫秘制豆干</div>
+          <div class="list-right">
+            <div class="price-content"> 
+              <span class="price-icon">￥</span>
+              <span class="price">168</span>
+            </div>
+            <div class="num">
+                <i class="icon iconfont minus">&#xe60e;</i>
+                <span class="total">1</span>
+                <i class="icon iconfont plus">&#xe601;</i>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+        <!--end 1-->
+        <!--1-->
+        <div class="list">
+          <div class="goods-name">久久丫秘制豆干久久丫秘制豆干久久丫秘制豆干</div>
+          <div class="list-right">
+            <div class="price-content"> 
+              <span class="price-icon">￥</span>
+              <span class="price">168</span>
+            </div>
+            <div class="num">
+                <i class="icon iconfont minus">&#xe60e;</i>
+                <span class="total">1</span>
+                <i class="icon iconfont plus">&#xe601;</i>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+        </div>
+        <!--end 1-->
+      </div>
+    </div>
+  </div>
+  
+
+
+  <script type='text/javascript' src='js/zepto.min.js' charset='utf-8'></script>
+  <script type='text/javascript' src='js/sm.min.js' charset='utf-8'></script>
+  <script type='text/javascript' src='js/sm-extend.min.js' charset='utf-8'></script>
+  
+  <script type='text/javascript' src='js/app.js'></script>
+  <!-- liveLoad 代码，最终可以删除 -->
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
+</body>
+
+</html>
