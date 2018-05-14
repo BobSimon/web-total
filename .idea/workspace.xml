@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f450e1ae-0916-4b14-85f7-4a6946237ad5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../many-projects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../many-projects/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../many-projects/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../many-projects/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +55,8 @@
         <entry file="file://$PROJECT_DIR$/../many-projects/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="390">
-                <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+              <first_editor relative-caret-position="196">
+                <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -322,12 +323,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526262791085</updated>
       <workItem from="1526262794059" duration="1072000" />
-      <workItem from="1526264014046" duration="4883000" />
+      <workItem from="1526264014046" duration="5121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5955000" />
+    <option name="totallyTimeSpent" value="6193000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +344,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.30033746" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.09227468" side_tool="true" visible="true" weight="0.17435321" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.44606742" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -362,7 +363,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.5662921" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946353" visible="true" weight="0.30033746" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.90772533" visible="true" weight="0.17435321" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2081545" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -542,8 +543,8 @@
     <entry file="file://$PROJECT_DIR$/../many-projects/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="390">
-            <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+          <first_editor relative-caret-position="196">
+            <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           </first_editor>
           <second_editor />
         </state>

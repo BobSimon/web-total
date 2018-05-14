@@ -5,7 +5,7 @@
 
 ### 模板截图
 
- ![temp11](/doc/pic1.png "temp11")
+ ![temp11](/doc/temp11.png "temp11")
  
  
  ![min-web](/doc/min-web.png "min-web")
